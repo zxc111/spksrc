@@ -1,0 +1,30 @@
+diff -ruN ./configure.old ./configure
+--- ./configure.old    2020-04-24 23:29:44.000000000 +0200
++++ ./configure    2020-09-27 22:25:04.065025800 +0200
+@@ -5572,7 +5572,7 @@
+
+             #ifndef __cplusplus
+             #error "This is not a C++ compiler"
+-            #elif __cplusplus < 201402L
++            #elif __cplusplus < 201300L
+             #error "This is not a C++14 compiler"
+             #endif
+ int
+@@ -5606,7 +5606,7 @@
+
+             #ifndef __cplusplus
+             #error "This is not a C++ compiler"
+-            #elif __cplusplus < 201402L
++            #elif __cplusplus < 201300L
+             #error "This is not a C++14 compiler"
+             #endif
+ int
+@@ -5630,7 +5630,7 @@
+
+             #ifndef __cplusplus
+             #error "This is not a C++ compiler"
+-            #elif __cplusplus < 201402L
++            #elif __cplusplus < 201300L
+             #error "This is not a C++14 compiler"
+             #endif
+ int
